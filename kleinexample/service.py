@@ -27,12 +27,12 @@ class KleinExample:
         if muffin in my_muffins:
             return "You like %s muffins too? Here, have one!" % (muffin, )
         else:
-            return "Sorry, I only have these muffins: " % (",".join(my_muffins), )
+            return "Sorry, I only have these muffins: %s" % (",".join(my_muffins), )
 
 
 class Options(usage.Options):
     optParameters = [
-        ["port", "p", "8085"]
+        ["port", "p", "8040"]
     ]
 
 def makeService(options):

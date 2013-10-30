@@ -1,4 +1,4 @@
 from twisted.application.service import ServiceMaker
 
 serviceMaker = ServiceMaker(
-    'kleinexample', 'kleinexample', 'Klein Example', 'kleinexample')
+    'kleinexample', 'kleinexample.service', 'Klein Example', 'kleinexample')
