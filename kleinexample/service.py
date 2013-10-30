@@ -27,7 +27,7 @@ class KleinExample:
         if muffin in my_muffins:
             return "You like %s muffins too? Here, have one!" % (muffin, )
         else:
-            return "Sorry, I only have these muffins: %s" % (",".join(my_muffins), )
+            return "Sorry, I only have these muffins: %s" % (", ".join(my_muffins), )
 
 
 class Options(usage.Options):
