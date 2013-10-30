@@ -1,3 +1,6 @@
-Run like this::
+Klein Example
+=============
+
+Run like this:
 
 	twistd -n kleinexample
